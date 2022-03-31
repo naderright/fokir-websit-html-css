@@ -1,0 +1,66 @@
+/* =============================       media     ===================== */
+/* ===========home========== */
+@media screen and (max-width:740px) and (min-width:220px){
+    .home-content h1{
+        font-size: 40px;
+    }
+    .home-content p{
+        font-size: 18px;
+    }
+    .home-content {
+        transform: translate(2%, 275%);
+        width: 90%;
+    }
+    
+}
+/* ================about============= */
+@media screen and (max-width:1050px) and (min-width:768px){
+    .framework-image{
+        display: none;
+    }
+    .about-images{
+        width: 40%;
+        padding-left: 5%;
+    }
+    .about-image{
+        width: 100%;
+        transform: translate(0%, 0%);
+    }
+    .about-content{
+        padding: 10px;
+        padding-left: 2%;
+    }
+    .about{
+        padding: 5% 1%;
+    }
+    
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    
+    .about-desc p{
+        font-size: 16px;
+    }
+    .about-data table td{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:768px) {
+     .about-images,.about-content {
+        display: block;
+        width: 80%;
+    } 
+    .framework-image{
+        display: none;
+    } 
+    /* .about-content{
+      transform: translate(20%,20%);  
+    } */
+    .about-images{
+        
+        padding-left: 5%;
+    }
+    .about-image{
+        width: 100%;
+        transform: translate(0%, 0%);
+    }
+}
